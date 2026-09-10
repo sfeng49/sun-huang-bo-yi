@@ -1,0 +1,4 @@
+interface:
+  display_name: "孙黄薄抑论"
+  short_description: "资源归己、勇敢争取、自律吸引、不为性妥协，四种分析、综合建议与关键追问"
+  default_prompt: "使用 $sun-huang-bo-yi 分析我的问题，分别解释四种视角，给出统一建议，并问几个能帮助完善判断的关键问题。"
