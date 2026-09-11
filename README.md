@@ -21,7 +21,7 @@
 
 ## 安装
 
-下载 Release 中的 `sun-huang-bo-yi-v2.2.0.zip`，解压后把整个 `sun-huang-bo-yi` 文件夹放到 `~/.codex/skills/`。若已有同名 Skill，可先将旧版本移出该目录再替换。
+下载 Release 中的 `sun-huang-bo-yi-v2.3.0.zip`，解压后把整个 `sun-huang-bo-yi` 文件夹放到 `~/.codex/skills/`。若已有同名 Skill，可先将旧版本移出该目录再替换。
 
 也可以在尚未安装时克隆：
 
@@ -48,6 +48,18 @@ git clone https://github.com/sfeng49/sun-huang-bo-yi.git ~/.codex/skills/sun-hua
 
 示例问题可以是关系中的支出要求、合作中的成果归属、自我表达与外部评价。详细输出见[回答示例](references/response-examples.md)。
 
+## 人物表达风格
+
+从 v2.3.0 起，三个视角采用不同的人物化表达：
+
+|视角|表达参考|主要特点|
+|---|---|---|
+|孙学|孙宇晨|自信地重构利益，以未来回报叙事争取投入|
+|薄肌|Alan Shao|短句与明确的行动要求，强调自律、身材和选择权|
+|性压抑|峰哥亡命天涯|直接追问与冷面反讽，检视违心妥协的动机|
+
+黄毛沿用原表达。综合建议与关键追问保持清楚的咨询口吻。以上为原创风格演绎，不是本人发言；具体规则见[人物表达指南](references/voice-guide.md)。
+
 ## 研究与公开包
 
 研究观察截至 **2026-09-10**。包含比较研究报告、四篇专题、时间线、观点证据表与 **33 张来源卡**；其中 28 项曾核读，另 5 项是未取得可用正文的线索。来源研究与实际咨询口径分开维护。
@@ -61,6 +73,7 @@ sun-huang-bo-yi/
 ├── SKILL.md                  核心指令
 ├── agents/openai.yaml        名称与默认提示
 ├── references/
+│   ├── voice-guide.md        人物表达指南
 │   ├── response-examples.md  输出示例
 │   ├── evidence-guide.md     资料读取规则
 │   └── research/             报告、专题、证据与来源卡
